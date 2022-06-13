@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 15px;
+  margin-top: 5px;
+  color: rgb(29, 28, 29);
+}
+.Header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0px 0px 6px 0px rgba(5, 0, 0, 0.5);
+  background-color: rgb(40, 218, 120);
+}
+.Footer {
+  bottom: 0;
+  width: 100%;
+  padding: 9px;
+  background-color: rgb(252, 249, 249);
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+  line-height: 0;
+}
+.ContenedorDosColumnas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 8px;
+  background-color: rgb(253, 252, 252);
+  box-shadow: 0 3px 15px rgba(124, 130, 136, 0.5);
+  width: 65%;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.Contenedor {
+  padding: 8px;
+  background-color: rgb(252, 250, 250);
+  box-shadow: 0 3px 15px rgba(117, 123, 129, 0.5);
+  width: 65%;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.FotoPortfolio{
+  width: 200px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  box-shadow: 0 3px 15px rgba(13, 79, 65, 0.5);
+}
+.laboral{
+  width: 200px;
+  margin-bottom: auto;
+  margin-top: 40px;
+}
+.FotoFormacion{
+  width: 300px;
+  margin-bottom: auto;
+  margin-top: 40px;
+}
+.FotoFormacion1{
+  width: 300px;
+  margin-bottom: auto;
+  margin-top: 40px;
+}
+
+.Experiencia{
+  width: 500px;
+  margin-bottom: auto;
+  margin-top: 30px;
+}
+.Lista{
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 10px;
+}
+.UnaLinea{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: auto;
+  margin-top: auto;
+ 
+}
+.Logo {
+  width: 80px;
+}
+.Botones{
+  border: 2px solid rgb(39, 3, 243);
+  border-radius: 2px;
+  padding: 4px;
+}
+.Titulo{
+  text-shadow:4px 4px 2px rgb(199, 199, 199);
+  text-decoration: double;
+  color: rgb(252, 4, 4);
+  font-weight: bold;
+}
+.Separador{
+  background-Color: 'white';
+  color: white;
+  padding: 12px;
+}
